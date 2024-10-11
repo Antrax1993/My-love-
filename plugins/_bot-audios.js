@@ -19,7 +19,7 @@ let handler = async (m, { conn }) => {
 
         case 'lo paltimos':
             conn.sendPresenceUpdate('recording', m.chat);
-            await conn.sendFile(m.chat, 'https://f.uguu.se/YxAfrAnj.opus', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            await conn.sendFile(m.chat, 'https://f.uguu.se/sxXCZcBQ.opus', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
             break;
 
         case 'tarado':
