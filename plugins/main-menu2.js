@@ -31,6 +31,7 @@ let texto = `*☁️ _M E N U - A U D I O S_ ☁️*
 ° _Marica Tu_.
 ° _Ma Ma Masivo_.
 ° _La Oración_.
+° _Lo Paltimos_.
 ° _Jesucristo_.
 ° _Homero Chino_.
 ° _Hora De Sexo_.
