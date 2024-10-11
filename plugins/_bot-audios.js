@@ -17,6 +17,11 @@ let handler = async (m, { conn }) => {
             await conn.sendFile(m.chat, 'https://f.uguu.se/YxAfrAnj.opus', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
             break;
 
+        case 'juicioso':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://f.uguu.se/QGdfsqyV.opus', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
         case 'lo paltimos':
             conn.sendPresenceUpdate('recording', m.chat);
             await conn.sendFile(m.chat, 'https://f.uguu.se/sxXCZcBQ.opus', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
